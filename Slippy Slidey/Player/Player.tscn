@@ -7,8 +7,8 @@
 friction = 0.2
 bounce = 0.1
 
-[sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 31.5488, 31.8536 )
+[sub_resource type="CircleShape2D" id=2]
+radius = 32.0
 
 [node name="Player" type="RigidBody2D"]
 mode = 2
