@@ -11,6 +11,7 @@ bounce = 0.1
 extents = Vector2( 31.5488, 31.8536 )
 
 [node name="Player" type="RigidBody2D"]
+mode = 2
 physics_material_override = SubResource( 1 )
 gravity_scale = 9.8
 continuous_cd = 1
