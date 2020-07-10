@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Anthill.png-82121097420ee562cfb3b10790284c36.stex"
+path="res://.import/Anthill.png-faaf8b94b73f8ea23c79b0ecf67067c4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://World/Anthill.png"
-dest_files=[ "res://.import/Anthill.png-82121097420ee562cfb3b10790284c36.stex" ]
+source_file="res://World/Anthill/Anthill.png"
+dest_files=[ "res://.import/Anthill.png-faaf8b94b73f8ea23c79b0ecf67067c4.stex" ]
 
 [params]
 
