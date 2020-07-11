@@ -7,6 +7,7 @@
 radius = 1.55157
 
 [node name="Ants" type="KinematicBody2D"]
+scale = Vector2( 2, 2 )
 script = ExtResource( 2 )
 MIN_TIME = 3
 MAX_TIME = 10
