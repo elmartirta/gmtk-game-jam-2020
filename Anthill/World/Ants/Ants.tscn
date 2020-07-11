@@ -4,7 +4,7 @@
 [ext_resource path="res://World/Ants/Ants.gd" type="Script" id=2]
 
 [sub_resource type="CircleShape2D" id=1]
-radius = 1.55157
+radius = 0.462865
 
 [node name="Ants" type="KinematicBody2D"]
 scale = Vector2( 2, 2 )
@@ -17,7 +17,7 @@ texture = ExtResource( 1 )
 
 [node name="Timer" type="Timer" parent="."]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="Hitbox" type="CollisionShape2D" parent="."]
 shape = SubResource( 1 )
 __meta__ = {
 "_edit_group_": true
