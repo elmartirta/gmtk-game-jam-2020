@@ -43,6 +43,7 @@ func spawn_ant():
 		2: continue
 		1: continue
 		0: new_ant_path = soldier_ant_path
+		_: new_ant_path = generic_ant_path
 
 
 
