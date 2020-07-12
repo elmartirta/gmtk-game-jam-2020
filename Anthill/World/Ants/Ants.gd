@@ -21,7 +21,7 @@ func _ready():
 	set_state_wander()
 
 func _physics_process(delta):
-	
+
 	match state:
 		WANDER:
 			pass
@@ -29,10 +29,10 @@ func _physics_process(delta):
 			pass
 		RETURN:
 			pass
-	
-	
-	
-	
+
+
+
+
 	velocity = direction * SPEED * delta
 	velocity = move_and_collide(velocity)
 
@@ -56,5 +56,3 @@ func choose_direction():
 func _on_Timer_timeout():
 	choose_direction()
 
-func detect_sugar():
-	pass
