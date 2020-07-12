@@ -55,3 +55,6 @@ func choose_direction():
 
 func _on_Timer_timeout():
 	choose_direction()
+
+func detect_sugar():
+	pass
