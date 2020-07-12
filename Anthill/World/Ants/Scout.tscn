@@ -8,6 +8,8 @@ radius = 20.0
 
 [node name="Scout" instance=ExtResource( 1 )]
 script = ExtResource( 2 )
+MIN_TIME = 1
+MAX_TIME = 5
 
 [node name="Detection" type="Area2D" parent="." index="3"]
 

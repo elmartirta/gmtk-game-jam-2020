@@ -1,5 +1,2 @@
-extends KinematicBody2D
+extends "res://World/Ants/Ants.gd"
 
-
-func _ready():
-	pass # Replace with function body.
