@@ -41,7 +41,8 @@ func set_state_wander():
 	choose_direction()
 
 func set_state_charge():
-	pass
+	state = CHARGE
+	timer.stop()
 
 func set_state_return():
 	pass
