@@ -1,5 +1,4 @@
 extends Navigation2D
 
-
-func get_path():
-	pass
+func ant_path(source, destination) -> PoolVector2Array:
+	return get_simple_path(source, destination)

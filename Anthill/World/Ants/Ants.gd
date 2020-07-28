@@ -14,10 +14,14 @@ onready var timer = $Timer
 
 var state = WANDER
 
+onready var hill_position = get_parent().global_position
+var charge_destination = Vector2.ZERO
+
 var velocity = Vector2.ZERO
 var direction = Vector2.ZERO
 
 func _ready():
+	print(hill_position)
 	set_state_wander()
 
 func _physics_process(delta):
@@ -43,6 +47,9 @@ func set_state_wander():
 func set_state_charge():
 	state = CHARGE
 	timer.stop()
+
+func set_charge_destination(destination):
+	charge_destination = destination
 
 func set_state_return():
 	pass
