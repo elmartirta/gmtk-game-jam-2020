@@ -11,17 +11,18 @@ enum{
 }
 
 onready var timer = $Timer
+onready var nav = get_parent().get_parent().get_parent()
 
 var state = WANDER
 
-onready var hill_position = get_parent().global_position
+onready var hill_position = global_position
 var charge_destination = Vector2.ZERO
+var charge_path
 
 var velocity = Vector2.ZERO
 var direction = Vector2.ZERO
 
 func _ready():
-	print(hill_position)
 	set_state_wander()
 
 func _physics_process(delta):
@@ -45,6 +46,7 @@ func set_state_wander():
 	choose_direction()
 
 func set_state_charge():
+	charge_path = nav.ant_path()
 	state = CHARGE
 	timer.stop()
 
